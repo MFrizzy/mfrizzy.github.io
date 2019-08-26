@@ -6,14 +6,20 @@
         <div class="display-2">Thomas</div>
         <div class="headline">Full-stack développeur</div>
         <div>
-          <v-btn text icon href="https://www.linkedin.com/in/tanguy-thomas">
+          <v-btn text icon href="mailto:mfrizzy@pm.me" target="_blank">
+            <v-icon>fa-at</v-icon>
+          </v-btn>
+          <v-btn text icon href="https://www.linkedin.com/in/tanguy-thomas" target="_blank">
             <v-icon>fab fa-linkedin-in</v-icon>
           </v-btn>
           <v-btn text icon href="http://www.github.com/mfrizzy" target="_blank">
             <v-icon>fab fa-github</v-icon>
           </v-btn>
-          <v-btn text icon href="https://codepen.io/Mfrizzy/">
+          <v-btn text icon href="https://codepen.io/Mfrizzy/" target="_blank">
             <v-icon>fab fa-codepen</v-icon>
+          </v-btn>
+          <v-btn text icon href="https://kit.com/Mfrizzy" target="_blank">
+            <img class="kit" src="kit.svg" />
           </v-btn>
         </div>
       </div>
@@ -87,5 +93,10 @@ export default {
 .card-img {
   margin: 24px auto;
   width: 50%;
+}
+
+.kit {
+  width: 24px;
+  height: 24px;
 }
 </style>
